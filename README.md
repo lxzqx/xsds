@@ -1,12 +1,12 @@
-# 使用Railway部署Xray高性能代理服务，通过ws传输的 (vmess、vless、trojan shadowsocks、socks)等协议
+# 使用部署Xray高性能代理服务，通过ws传输的 (vmess、vless、trojan shadowsocks、socks)等协议
 
-# Railway已封禁本项目，请Fork到自己的GitHub后部署
+# 已封禁本项目，请Fork到自己的GitHub后部署
 
 > 提醒： 滥用可能导致账户被BAN！！！ 
 
 ## 概述
 
-用于在 railway 上部署 vless+websocket+tls，每次部署自动选择最新的 alpine linux 和 Xray core 。  
+用于在 上部署 vless+websocket+tls，每次部署自动选择最新的 alpine linux 和 Xray core 。  
 vless 性能更加优秀，占用资源更少。
 
 * 使用[xray](https://github.com/XTLS/Xray-core)+caddy同时部署通过ws传输的vmess vless trojan shadowsocks socks等协议，并默认已配置好伪装网站。
